@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['AmalgamRestoration', 'CompositeResinRestoration', 'Crown', 'DentalCaries', 'ImpactedTooth', 'Overhang', 'RetainedRoots', 'RootCanalTreatment', 'periapicalLesion', 'post']
+
+roboflow:
+  workspace: opg
+  project: opg-saldg
+  version: 4
+  license: Private
+  url: https://app.roboflow.com/opg/opg-saldg/4
